@@ -1,6 +1,6 @@
 # Test page
 
 ## Guess the number
-[Play](folder/guessingNumber.html)
+[Play](GuessGame/guessingNumber.html)
 
 

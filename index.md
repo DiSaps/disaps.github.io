@@ -1,7 +1,8 @@
-# Test page
+
+<span style="color:red"># Test page</span>
 
 ### Guess the number: [Play](GuessGame/guessingNumber.html)
 
-<span style="color:red">some **This is Red Bold.** text</span>
+
 
 

@@ -1,32 +1,44 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guess the number</title>
-    <link rel="stylesheet" href="final-test-style.css">
-    <script src="advanced.js" defer></script>
- 
-</head>
-<body>
-    <header>Game: Guess the number</header>
-    <section id="instructions">
-        Try to find the number between 1 to 100 we have chosen 
-        in max 10 tries.
-        You will be noticed every time you give an answer if the
-        you guessed is smaller of bigger than the right one.
-    </section>
-    <section id="guess">
-        <label for="new-guess">Guess: </label>
-        <input type="text" name="new-guess" id="new-guess" size="5">
-        <button id="check"> Check </button>
 
-    </section>
-    <section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Guess the number</title>
+  <link rel="stylesheet" href="github.css">
+  <script src="gitbub.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="game">
+      
+      <div class="game_header">
+        <h1 class="header_title">Guess the number</h1>
+      </div>
+
+      <div class="instructions">
+        We have choose a random number between 1 and 100.<br>
+        Try to find it in 10 tries at the most.<br>
+        You will noticed if your answer is low or high.<br>
+      </div>
+
+      <div class="game_plan">
+        Guess    &nbsp
+        <input type="text" name="new-guess" id="new-guess" size="5">
+        &nbsp
+        <button id="check"> Check </button>
+      </div>
+
+      <div class="messages">
         <div id="message">  </div>
         <div id="low-high"></div>
         <button id= "restart"> Play again </button>
-    </section>    
+      
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>

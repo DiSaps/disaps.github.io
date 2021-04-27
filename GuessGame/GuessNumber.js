@@ -59,10 +59,10 @@ function processGuess(newValue){
                     newGuess.setAttribute("readonly", "");
                     return "lost";
                 } else if (userGuess > theGuess) {
-                    message.textContent = "Wrong, it is higher.";
+                    message.textContent = "Wrong, it is lower.";
                     message.style.backgroundColor = "var(--msg-wrong-color)";
                 } else {
-                    message.textContent = "Wrong, it is lower.";
+                    message.textContent = "Wrong, it is higher.";
                     message.style.backgroundColor = "var(--msg-wrong-color)";
                 }
             }
